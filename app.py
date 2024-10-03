@@ -1,8 +1,7 @@
-from tkinter import *
 import requests
 
 def get_weather(api_key, city):
-    url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}&aqi=no"
+    url = f"https://api.weatherapi.com/v1/marine.json?key={api_key}&q={city}&days=3"
     response = requests.get(url)
     
     if response.status_code == 200:
