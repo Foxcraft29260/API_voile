@@ -1,3 +1,4 @@
+from tkinter import *
 import requests
 
 def get_weather(api_key, city):
