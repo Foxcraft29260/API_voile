@@ -8,12 +8,12 @@ set_default_color_theme("green")
 root = CTk()
 root.config(padx=160, pady=90)
 root.title("Weather viewer")
-# root.iconbitmap("icon.ico")
+root.iconbitmap("D:\programmation\Github\API_voile\icon.ico")
 
 def results(city, days)->None:
     print(days)
     resultWindow = CTkToplevel(root)
-    # resultWindow.after(250, lambda: resultWindow.iconbitmap("icon.ico"))
+    resultWindow.after(250, lambda: resultWindow.iconbitmap("D:\programmation\Github\API_voile\icon.ico"))
     resultWindow.title(f"Informations in {city}")
     results = get_weather("77eb92f97e104bf6b9773753242709", city, days)
     
