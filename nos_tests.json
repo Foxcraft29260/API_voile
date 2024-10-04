@@ -1,0 +1,123 @@
+{
+    "all values": [
+        {
+            "date": "2024-10-04", 
+            "values": []
+        }, 
+        {"date": "2024-10-05", 
+        "values": []
+        }, 
+        {"date": "2024-10-06", 
+        "values": 
+            [
+                {
+                    "time": "12:00", 
+                    "wind_mls": 14.0, 
+                    "wind_dir": "SW"
+                }, 
+                {
+                    "time": "18:00", 
+                    "wind_mls": 13.0, 
+                    "wind_dir": "SW"
+                }, 
+                {
+                    "time": "19:00", 
+                    "wind_mls": 13.0, 
+                    "wind_dir": "SW"
+                }, 
+                {
+                    "time": "20:00", 
+                    "wind_mls": 12.0, 
+                    "wind_dir": "SW"
+                }
+            ]
+        }, 
+        {
+            "date": "2024-10-07", 
+            "values": 
+                [
+                    {
+                        "time": "12:00", 
+                        "wind_mls": 14.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "13:00", 
+                        "wind_mls": 16.0, 
+                        "wind_dir": "SW"
+                    }
+                ]
+        }, 
+        {
+            "date": "2024-10-08", 
+            "values": 
+                [
+                    {
+                        "time": "08:00", 
+                        "wind_mls": 19.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "09:00", 
+                        "wind_mls": 20.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "10:00", 
+                        "wind_mls": 21.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "11:00", 
+                        "wind_mls": 22.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "12:00", 
+                        "wind_mls": 21.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "13:00", 
+                        "wind_mls": 21.0, 
+                        "wind_dir": "WSW"
+                    }, 
+                    {
+                        "time": "14:00", 
+                        "wind_mls": 21.0,
+                        "wind_dir": "WSW"
+                    }, 
+                    {
+                        "time": "15:00", 
+                        "wind_mls": 20.0,
+                        "wind_dir": "WSW"
+                    }, 
+                    {
+                        "time": "16:00", 
+                        "wind_mls": 20.0, 
+                        "wind_dir": "WSW"
+                    }, 
+                    {
+                        "time": "17:00", 
+                        "wind_mls": 19.0, 
+                        "wind_dir": "WSW"
+                    }, 
+                    {
+                        "time": "18:00", 
+                        "wind_mls": 18.0, 
+                        "wind_dir": "WSW"
+                    }, 
+                    {
+                        "time": "19:00", 
+                        "wind_mls": 18.0, 
+                        "wind_dir": "SW"
+                    }, 
+                    {
+                        "time": "20:00", 
+                        "wind_mls": 15.0, 
+                        "wind_dir": "SW"
+                    }
+                ]
+        }
+    ]
+}
