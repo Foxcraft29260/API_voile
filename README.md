@@ -24,5 +24,3 @@
 ## **Problèmes rencontrées** :
 - Le principal problème rencontré lors de ce projet a été de comprendre la structure des données renvoyées par l'API : toutes les données n'étant pas nécessaire, on a du étudier la structure du fichier pour récupérer les bons éléments et délaisser les éléments inutiles.
 - Dans le cadre de l'UI, le problème a été de bien trier les informations reçues puis de les afficher de façon structurées. Ce problème à eu comme résultat une obligation de la restructuration de la récolte de données.
-
-@
