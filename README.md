@@ -1,7 +1,7 @@
 # Wind Finder
 ## **Utilisation du logiciel** :
-- télécharger le fichier « Wind finder.exe » et l’exécuter.
-- Vous serez accueillies par une fenêtre comme si dessous :  
+- télécharger le fichier « weather_finder setup.exe » et l’exécuter.
+ -Après l'installation, vous serez accueillies par une fenêtre comme si dessous en lanceant le programme :  
   ![img](https://github.com/user-attachments/assets/a7788f10-0004-489f-a60a-8e0b90f0c9a6)
 - Le curseur a gauche va de 1 (en bas) a 5 (en haut), il permet de choisir le nombre de jour dans le futur pour récupérer les prévisions.
 - L'entrée de texte (au centre en dessous de wanted city) permet de choisir la ville où récupérer les prévisions.
