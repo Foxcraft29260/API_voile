@@ -8,12 +8,21 @@ set_default_color_theme("green")
 root = CTk()
 root.config(padx=160, pady=90)
 root.title("Weather viewer")
-root.iconbitmap("D:\programmation\Github\API_voile\icon.ico")
+
+try:
+    icon_path = os.path.join(os.path.dirname(__file__), "icon.ico")
+    
+    if not os.path.isfile(icon_path):
+        raise FileNotFoundError(f"le fichier {icon_path} n'existe pas.")
+except(FileNotFoundError, OSError):
+    user = os.getlogin()
+    icon_path = f"C:\\Users\\{user}\\AppData\\Local\\weather_finder\\icon.ico"
+root.iconbitmap(icon_path)
 
 def results(city, days)->None:
     print(days)
     resultWindow = CTkToplevel(root)
-    resultWindow.after(250, lambda: resultWindow.iconbitmap("D:\programmation\Github\API_voile\icon.ico"))
+    resultWindow.after(250, lambda: resultWindow.iconbitmap(icon_path))
     resultWindow.title(f"Informations in {city}")
     results = get_weather("77eb92f97e104bf6b9773753242709", city, days)
     
